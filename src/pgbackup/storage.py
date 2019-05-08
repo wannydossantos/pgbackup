@@ -4,5 +4,5 @@ def local(infile, outfile):
     infile.close()
 
 def s3(client, infile, bucket, filename):
-    client.upload_fileobj(infile, bucket, filename:w)
+    client.upload_fileobj(infile, bucket, filename)
 
